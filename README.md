@@ -3,7 +3,6 @@ Negocio dedicado a la venta de deliciosas gomitas enchiladas, elaboradas con los
 
 ## **Que esperas? Visita mi pagina web en vivo 👀🎇**
 
-
-[Pagina-web]: matweo77.github.io/Gomitas/ "Tienda de gomitas"
+--->  matweo77.github.io/Gomitas/ 
 
 
