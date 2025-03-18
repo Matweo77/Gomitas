@@ -41,7 +41,7 @@ header {
 
 /*primera linea */
 #primera-linea{
-    background-image:  url(/images/Img-header.jpg);
+    background-image:  url(Img-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 6rem;
