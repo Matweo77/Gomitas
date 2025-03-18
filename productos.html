@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Productos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- cdn Icon Bootratps-->
+    <link rel="stylesheet" href="/styles/productos.css">
+</head>
+<body>
+
+    <header class="header-custom mb-5 p-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <span class="brand-text">COTIZADOR WEB</span>
+                </div>
+                <div class="col-md-2 text-end">
+                    <a href="/index.html"><i class="bi bi-house-door-fill"></i>Ir al inicio ☺️✨</a>
+                </div>
+                <div class="col-md-2 text-end">
+                    <a href="#">
+                        <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid mt-2">
+        <div class="row">
+            <!-- Sidebar izquierdo -->
+            <div class="col-md-3">
+                <!-- Cotizador header -->
+                <div class="card mb-3">
+                    <div class="card-header bg-orange text-white">
+                        <h5 class="mb-0">COTIZADOR DE PRODUCTOS</h5>
+                    </div>
+                    
+                    <div class="card-body">
+                        <button class="btn btn-orange w-100 text-white">
+                            <i class="fas fa-shopping-cart me-2"></i> Productos Agregados <span class="badge bg-white text-dark ms-2">0</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Categorías -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Categorías</h5>
+                        <ul class="list-group category-list">
+                            <li class="list-group-item active-category">
+                                Todos los productos
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                            <li class="list-group-item">
+                                Desarrollo de Software
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                            <li class="list-group-item">
+                                Diseño Gráfico
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                            <li class="list-group-item">
+                                Diseño Web
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                            <li class="list-group-item">
+                                Hosting Dedicado
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                            <li class="list-group-item">
+                                WordPress
+                                <i class="fas fa-chevron-right float-end"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contenido principal -->
+            <div class="col-md-9">
+                <h2 class="mb-3">Todos los productos</h2>
+                
+                <!-- Barra de búsqueda y filtros -->
+                <div class="row mb-4">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar...">
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="dropdown float-end">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nombre
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Nombre</a></li>
+                                <li><a class="dropdown-item" href="#">Precio: menor a mayor</a></li>
+                                <li><a class="dropdown-item" href="#">Precio: mayor a menor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Productos -->
+                <div class="row">
+                    <!-- Producto 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Desarrollo de Aplicaciones Web">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Gomi decoracion</h5>
+                                <p class="card-text price">USD 999.00</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Desarrollo de Sistema Web">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Desarrollo de Sistema Web</h5>
+                                <p class="card-text price">USD 350.00</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Diseño de Banner">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Diseño de Banner</h5>
+                                <p class="card-text price">USD 12.00</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Plan de Hosting Dedicado">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Plan de Hosting Dedicado (Anual)</h5>
+                                <p class="card-text price">USD 75.75</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Planes de Hosting Dedicado Plan Básico">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Planes de Hosting Dedicado Plan Básico</h5>
+                                <p class="card-text price">USD 100.00</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 product-card">
+                            <img src="/images/gomita6.jpg" class="card-img-top" alt="Planes de Hosting Dedicado Plan Empresarial">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Planes de Hosting Dedicado Plan Empresarial</h5>
+                                <p class="card-text price">USD 150.00</p>
+                                <a href="#" class="btn btn-orange">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js//productos.js"></script>
+</body>
+</html>

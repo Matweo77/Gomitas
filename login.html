@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inicio de Sesión</title>
+    <link href="/styles/login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Sign in</h1>
+        <p class="signup-text">Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+        
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="sofia@devias.io">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password">
+                    <button type="button" class="password-toggle" onclick="togglePassword()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </button>
+                </div>
+                <a href="/view/forgot-password.html" class="forgot-password">Forgot password?</a>
+            </div>
+            
+            <button type="submit" class="signin-button">Sign in</button>
+        </form>
+        
+        <div class="hint-box">
+            <span class="hint-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+            </span>
+            <span class="hint-text">Use <span class="email-highlight">sofia@devias.io</span> with password <span class="email-highlight">Secret1</span></span>
+        </div>
+    </div>
+
+    <script src="/js/login.js"></script>
+</body>
+</html>

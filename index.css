@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.logo{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline;
+}
+.p1{color: #ff69b4;}
+.p2{color: #ff6969;}
+.p3{color: #6985ff;}
+.p4{color: #a5ff69;}
+.p5{color: #f0ff69;}
+.p6{color: #d31bdd;}
+.p7{color: #7ec18e;}
+.p8{color: #b9c55a;}
+.p9{color: #d31bdd;}
+.p10{color: #d31bdd;}
+.p11{color: #d31bdd;}
+.p12{color: #d31bdd;}
+.p13{color: #d31bdd;}
+.col-12 h1{
+    display: inline;
+}
+
+
+
+/*primera linea */
+#primera-linea{
+    background-image:  url(/images/Img-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem;
+    opacity: 88%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: .1px .1px 10px black;
+    min-height: 55vh !important;
+}
+#primera-linea .p1{
+    color: white;
+}
+#primera-linea .p2{
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+
+#primera-linea p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    font-weight: 550;
+}
+#primera-linea a{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+   padding: 13px 18px;
+   border-radius: 5px;
+   transition: 0.5s;
+   box-shadow: .1px .1px 30px rgb(70, 97, 219);
+}
+
+
+/*segunda linea*/
+
+#segunda-linea{
+    min-height: 40vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#hero-inferior-derecha a{
+    margin: 0.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+#hero-inferior-derecha a:hover{
+    margin: 0.5rem;
+    background-color: #bdbdbd;
+    color: #000000;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+
+#hero-inferior-derecha h2{
+    margin-bottom: 1.5rem;
+
+}
+
+
+/*tercera linea*/
+#tercera-linea{
+    min-height: 80vh;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 0 1rem 5rem 1rem;
+    box-shadow: .1px .1px .1px 2px rgb(0, 0, 0);
+}
+
+#tercera-linea h1{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+
+/*cuarta linea*/
+#cuarta-linea{
+    min-height: 35vh;
+
+}
